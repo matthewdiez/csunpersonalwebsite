@@ -1,1 +1,98 @@
+/* Basic page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and portrait */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+h1 {
+    margin: 10px 0 5px 0;
+    font-size: 2em;
+}
+
+.tagline {
+    margin: 0;
+    color: #555555;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+    color: #333333;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.date {
+    font-style: italic;
+    color: #666666;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Table header cells */
+th {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+/* All table cells */
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Alternate row background for readability */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777777;
+}
 
